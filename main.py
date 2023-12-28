@@ -1,8 +1,6 @@
-from tkinter import *
-from tkinter import ttk
+from tkinter import *  #importing everthing using *
 import datetime as dt
 from mydb import *
-from tkinter import messagebox
 
 # object for database
 data = Database(db='test.db')
